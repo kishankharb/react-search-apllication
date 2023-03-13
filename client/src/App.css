@@ -1,0 +1,104 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+
+.body{
+height: 100vh;
+  width: 100vw; 
+  background-image: linear-gradient(to left bottom, #b3bdcd, #8095c1, #566cb2, #34419f, #1e1085);   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow-y: scroll;
+}
+/* app css here */
+.app {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  height: 80vh;
+  /* overflow-y: scroll; */
+  padding: 30px 20px;
+  gap: 20px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+/* search css here */
+.search {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* list css here */
+
+.list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+    overflow-y: scroll;
+    width: 500px;
+    height: 60vh;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 20px;
+    padding: 30px 40px;
+    background: white;
+
+}
+
+/* listitem css here */
+
+.listItem {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #444;
+  font-weight: 300;
+
+}
+
+/* table css here */
+
+table {
+  margin: 10px 0px;
+  border-spacing: 15px;
+  color: #444;
+  overflow-y: scroll;
+  width: 500px;
+  height: 40vh;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 20px;
+  padding: 30px 40px;
+  background: white;
+}
+
+/* tr css here */
+
+tr {
+  margin-bottom: 20px;
+
+}
+
+/* th css here */
+
+th {
+  width: 250px;
+  text-align: left;
+  font-size: 20px;
+
+}
+
+/* td css here */
+td {
+  width: 250px;
+  font-size: 20px;
+
+}
